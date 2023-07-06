@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <com.makeramen.roundedimageview.RoundedImageView
+         android:id="@+id/detail_img"
+         android:layout_width="130dp"
+         android:layout_height="110dp"
+         android:layout_margin="10dp"
+         android:src="@drawable/bigdeal"
+         android:scaleType="centerCrop"
+         app:riv_corner_radius="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp">
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Deal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+            
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Decription"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/start"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/detail_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="5.0"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/baseline_access_time_filled_24"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/detail_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:00am - 10:00pm"
+                    android:layout_marginLeft="4dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/img"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/detail_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1350.0"
+                    android:textStyle="bold"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="19dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Order"
+                    android:textAllCaps="false"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="140dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">One Click Eats</string>
+    <string name="Open_nav">One Click Eats</string>
+    <string name="Close_nav">One Click Eats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

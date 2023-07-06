@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/ver_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kfcpic"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/round_bg"
+            android:layout_marginTop="250dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:text="Kentucky Fried Chicken"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginLeft="29dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_access_time_filled_24"
+            android:layout_marginTop="285dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:text="10:00am - 11:00pm"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="50dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ratings"
+            android:layout_marginTop="244dp"
+            android:layout_marginLeft="253dp"/>
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:text="5.0"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="269dp"
+            android:layout_marginLeft="228dp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allan_bold"
+            android:text="25min - $2500"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="230dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

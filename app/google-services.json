@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180366889604",
+    "project_id": "one-click-eats",
+    "storage_bucket": "one-click-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180366889604:android:abae2dc9714db2d56c28d1",
+        "android_client_info": {
+          "package_name": "com.example.oneclickeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180366889604-4nicg1uo6d1a20um4uhik6381782siu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFkdZ6Rl4iLAUFa3CTlY5HmbOT-o4q-N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180366889604-4nicg1uo6d1a20um4uhik6381782siu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
